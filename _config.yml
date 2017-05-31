@@ -1,0 +1,8 @@
+title: Changepoints
+description: Miscellaneous changepoint detection algorithms, including bayesian online changepoint detection, CUMSUM, structural change detection and burst detection.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
