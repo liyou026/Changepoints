@@ -43,7 +43,7 @@ data.dect <- data.dect + 10
 data.dect <- data.dect[1:1000]
 resVLP <- onlinechangepoint(data.dect, 
                           model = "nng", 
-                          mu0=10, k0=0.1, alpha0=1,beta0=0.1, #initial parameters 
+                          mu0=10, k0=3, alpha0=0.1,beta0=0.1, #initial parameters 
                           bpmethod = "mean", 
                           lambda=200, #exponential hazard 
                           FILTER=1e-3) 
